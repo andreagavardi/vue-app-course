@@ -3,9 +3,9 @@ import Home from "../views/Home.vue";
 
 const routes = [
   {
-    path: "/",
-    name: "Home",
-    component: Home,
+    path: "/", //url
+    name: "Home", //name
+    component: Home, //view component to render
   },
   {
     path: "/about",
