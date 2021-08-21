@@ -1,7 +1,7 @@
 //importp axios in un file dedicato nella cartella services così 
 //da non doverlo utilizzare in tutti i file in cui mi serve una chiamata API
 import axios from 'axios';
-//setto una costante per le chiamate specifice agli eventi
+//setto una costante per le chiamate API specifice agli eventi
 const apiClient = axios.create({
     baseURL: 'https://my-json-server.typicode.com/andreagavardi/fakeserver',
     withCredentials:false,
