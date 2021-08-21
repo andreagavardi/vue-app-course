@@ -1,6 +1,6 @@
 import { createRouter, createWebHistory } from "vue-router";
 import EventList from "../views/EventList.vue";
-
+//commento prova
 const routes = [
   {
     path: "/", //url
